@@ -1,6 +1,10 @@
 # Pezoneras DB
 
-Proyecto de base de datos relacional desarrollado en **SQL Server**, basado en un caso real de producción y venta particular de productos plásticos (pezoneras).
+Desde que comencé a aprender SQL y bases de datos, busqué crear proyectos que tuvieran aplicación en la vida real, basandome en mis necesidades personales e intereses .  
+Este proyecto surge a partir del trabajo de mi abuelo, quien vende pezoneras de silicona de manera particular.
+
+Si bien el sistema que él utiliza actualmente se basa en planillas impresas de Excel, el proceso de organizarlas me sirvió como inspiración para diseñar una base de datos que represente su actividad y, al mismo tiempo, me permita poner en práctica los conocimientos adquiridos en la universidad.
+
 
 ## Objetivo
 Modelar y documentar una base de datos que permita gestionar:
@@ -12,12 +16,16 @@ Modelar y documentar una base de datos que permita gestionar:
 - Facturación
 - Localidades
 
-El foco del proyecto está en el **diseño del modelo de datos**, la correcta definición de **claves primarias**, **claves foráneas** y **restricciones de integridad**.
-
-## Modelo Entidad-Relación
-El proyecto incluye un diagrama ER que representa las entidades del sistema y sus relaciones, respetando las reglas del negocio definidas.
-
-📌 Cada venta corresponde a un único producto, con una cantidad determinada.
-
 ## Estructura del repositorio
-
+pezoneras_db/
+│
+├── sql/
+│ ├── 01_create_database.sql
+│ ├── 02_create_tables.sql
+│ └── 03_insert_data.sql (en desarrollo)
+│
+├── diagrams/
+│ ├── Diagrama_ER.png
+| └── README.md
+│
+└── README.md
