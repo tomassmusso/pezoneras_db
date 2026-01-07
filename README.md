@@ -17,15 +17,16 @@ Modelar y documentar una base de datos que permita gestionar:
 - Localidades
 
 ## Estructura del repositorio
+```text
 pezoneras_db/
 │
 ├── sql/
-│ ├── 01_create_database.sql
-│ ├── 02_create_tables.sql
-│ └── 03_insert_data.sql (en desarrollo)
+│   ├── 01_create_database.sql
+│   ├── 02_create_tables.sql
+│   └── 03_insert_data.sql
 │
 ├── diagrams/
-│ ├── Diagrama_ER.png
-| └── README.md
+│   ├── Diagrama_ER.png
+│   └── README.md
 │
 └── README.md
