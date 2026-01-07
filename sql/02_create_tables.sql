@@ -1,3 +1,5 @@
+USE Pezoneras
+
 -- TABLA LOCALIDAD --
 CREATE TABLE Localidad (
 	ID_localidad INT PRIMARY KEY,
@@ -108,4 +110,5 @@ CREATE TABLE Factura (
 
 	CONSTRAINT Validacion_Monto
 		CHECK (Monto > 0)
+
 );
